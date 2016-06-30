@@ -22,9 +22,9 @@ congratulations! you've written a test. this isn't my favorite output, personall
 
     $ py.test -v test_basics.py
     =========================== test session starts ===========================
-    platform darwin -- Python 3.5.1, pytest-2.8.5, py-1.4.31, pluggy-0.3.1 -- /Users/fwph/anaconda/bin/python
+    platform darwin -- Python 3.5.1, pytest-2.8.5, py-1.4.31, pluggy-0.3.1
     cachedir: .cache
-    rootdir: /Users/fwph/code/pytest-examples/1_basics, inifile: 
+    rootdir: /pytest-examples/1_basics, inifile: 
     collected 1 items 
 
     test_basics.py::test_passing PASSED
@@ -51,9 +51,9 @@ now when we run py.test:
 
     $ py.test -v -ra test_markers.py 
     =========================== test session starts ===========================
-    platform darwin -- Python 3.5.1, pytest-2.8.5, py-1.4.31, pluggy-0.3.1 -- /Users/fwph/anaconda/bin/python
+    platform darwin -- Python 3.5.1, pytest-2.8.5, py-1.4.31, pluggy-0.3.1 
     cachedir: .cache
-    rootdir: /Users/fwph/code/pytest-examples/1_basics, inifile: 
+    rootdir: /pytest-examples/1_basics, inifile: 
     collected 1 items 
 
     test_markers.py::test_xfailing xfail

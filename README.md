@@ -15,4 +15,15 @@ we're all better off when more of us know how to write tests.
 
 py.test is quite straightforward to use, actively developed, and has an extensive library of plugins. it can even make writing tests fun!
 
+#### wait wait wait: how do i install it?
+
+right:
+
+    $ pip install pytest
+
+or, since you're using this tutorial:
+
+    $ pip install -r requirements.txt
+
+
 
